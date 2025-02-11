@@ -1,14 +1,14 @@
-import Form from "./components/Form";
-import React from 'react'
+import React from 'react';
+import Translator from './hooks/Translator'
+
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <Form />
+        <Translator />
       </>
     );
   }
 }
-
 export default App;

@@ -18,7 +18,7 @@ class Timer extends Component {
         clearInterval(this.id);
     }
 
-    // start timer, reset timer
+    // start timer, reset timerw
     render() {
         return (
             <>
